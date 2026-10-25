@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+<rect width="1200" height="1500" fill="#3b211b"/>
+<g fill="#e0a23b" opacity="0.5"><rect x="453" y="684.9" width="294" height="33.6"/><rect x="474" y="651.3" width="252" height="33.6"/><rect x="495" y="617.7" width="210" height="33.6"/><rect x="516" y="584.1" width="168" height="33.6"/><rect x="537" y="550.5" width="126" height="33.6"/><rect x="558" y="516.9" width="84" height="33.6"/><rect x="579" y="483.29999999999995" width="42" height="33.6"/></g>
+<text x="600" y="813" text-anchor="middle" fill="#efe6da" opacity="0.7" font-family="Helvetica, Arial, sans-serif" font-size="24">Hero photo</text>
+<text x="600" y="867.6" text-anchor="middle" fill="#efe6da" font-family="Georgia, serif" font-size="42">Kalaripayattu performance</text>
+</svg>

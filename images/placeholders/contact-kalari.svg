@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<rect width="800" height="800" fill="#3b211b"/>
+<g fill="#e0a23b" opacity="0.5"><rect x="302" y="356.6" width="196" height="22.400000000000002"/><rect x="316" y="334.2" width="168" height="22.400000000000002"/><rect x="330" y="311.8" width="140" height="22.400000000000002"/><rect x="344" y="289.4" width="112" height="22.400000000000002"/><rect x="358" y="267" width="84" height="22.400000000000002"/><rect x="372" y="244.6" width="56" height="22.400000000000002"/><rect x="386" y="222.2" width="28" height="22.400000000000002"/></g>
+<text x="400" y="442" text-anchor="middle" fill="#efe6da" opacity="0.7" font-family="Helvetica, Arial, sans-serif" font-size="16">Photo</text>
+<text x="400" y="478.4" text-anchor="middle" fill="#efe6da" font-family="Georgia, serif" font-size="28">The Kalari at Puthiyara</text>
+</svg>
