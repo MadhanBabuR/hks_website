@@ -6,6 +6,7 @@
 
 ## Always Do First
 - **Invoke the `frontend-design` skill** before writing any frontend code, every session, no exceptions.
+- The repo also carries the superpowers process skills and `skill-creator` in `.claude/skills/` (Claude Code on the web has no `/plugin` command, so they live here). Read `using-superpowers` at the start of a session, use `brainstorming` before building a new page or feature, `systematic-debugging` for bugs, and `verification-before-completion` before saying something is done.
 
 ## Reference Images
 - If a reference image is provided: match layout, spacing, typography, and color exactly. Swap in placeholder content (images via `https://placehold.co/`, generic copy). Do not improve or add to the design.
