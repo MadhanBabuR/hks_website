@@ -6,6 +6,7 @@
 
 ## Always Do First
 - **Invoke the `frontend-design` skill** before writing any frontend code, every session, no exceptions.
+- **Read `content/hks-content-pack.md` (sections 0–B) before building any page.** It is the site's content and sitemap for Hindustan Kalari Sangham. We are in **Phase 1**: a general institution website focused on structure, layout and design. Use only section B's copy, leave out anything uncertain, and don't use the Phase 2 appendix unless asked. The pack's multi-page sitemap overrides the single-`index.html` default below.
 - The repo also carries the superpowers process skills and `skill-creator` in `.claude/skills/` (Claude Code on the web has no `/plugin` command, so they live here). Read `using-superpowers` at the start of a session, use `brainstorming` before building a new page or feature, `systematic-debugging` for bugs, and `verification-before-completion` before saying something is done.
 
 ## Design Toolkit (in `.claude/skills/` and `design-references/`)

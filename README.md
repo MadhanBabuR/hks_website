@@ -9,9 +9,10 @@ New website, set up for building with Claude Code on the web.
 - `.claude/skills/` also holds the superpowers process skills (brainstorming, writing-plans, systematic-debugging, …) and `skill-creator`, because `/plugin` isn't available in Claude Code on the web. Licences in `.claude/licenses/`.
 - `.claude/skills/` design extras: `taste-skill` (art direction), `impeccable` (audit / polish), `playwright-cli` (browser automation), `img2threejs` (3D from an image). See "Design Toolkit" in CLAUDE.md for when to use each.
 - `design-references/`: brand design systems from Awesome DESIGN.md, for inspiration.
+- `content/hks-content-pack.md`: site content and sitemap for Hindustan Kalari Sangham. Phase 1 (general site: structure, layout, design) uses sections 0–B only; the appendix holds detail for Phase 2.
 - `serve.mjs`: zero-dependency local server, `node serve.mjs` → http://localhost:3000
 - `screenshot.mjs`: screenshots via the container's Chromium, `node screenshot.mjs http://localhost:3000`
 
 ## Getting started
 1. Add the logo, colours and style notes to `brand_assets/`, and photos to `images/`.
-2. Open a Claude Code session on this repo and describe the site (or share a reference image).
+2. Open a Claude Code session on this repo and ask it to build Phase 1 from `content/hks-content-pack.md`.
