@@ -7,6 +7,8 @@ New website, set up for building with Claude Code on the web.
 - `.claude/skills/frontend-design`: design-quality skill, loaded before any frontend work
 - `.claude/skills/scroll-craft`: skill for scroll-driven, animated marketing sites
 - `.claude/skills/` also holds the superpowers process skills (brainstorming, writing-plans, systematic-debugging, …) and `skill-creator`, because `/plugin` isn't available in Claude Code on the web. Licences in `.claude/licenses/`.
+- `.claude/skills/` design extras: `taste-skill` (art direction), `impeccable` (audit / polish), `playwright-cli` (browser automation), `img2threejs` (3D from an image). See "Design Toolkit" in CLAUDE.md for when to use each.
+- `design-references/`: brand design systems from Awesome DESIGN.md, for inspiration.
 - `serve.mjs`: zero-dependency local server, `node serve.mjs` → http://localhost:3000
 - `screenshot.mjs`: screenshots via the container's Chromium, `node screenshot.mjs http://localhost:3000`
 
