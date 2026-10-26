@@ -9,16 +9,6 @@
 - **Read `content/hks-content-pack.md` (sections 0–B) before building any page.** It is the site's content and sitemap for Hindustan Kalari Sangham. We are in **Phase 1**: a general institution website focused on structure, layout and design. Use only section B's copy, leave out anything uncertain, and don't use the Phase 2 appendix unless asked. The pack's multi-page sitemap overrides the single-`index.html` default below.
 - The repo also carries the superpowers process skills and `skill-creator` in `.claude/skills/` (Claude Code on the web has no `/plugin` command, so they live here). Read `using-superpowers` at the start of a session, use `brainstorming` before building a new page or feature, `systematic-debugging` for bugs, and `verification-before-completion` before saying something is done.
 
-## Design Toolkit (in `.claude/skills/` and `design-references/`)
-These overlap, so use them in this order rather than all at once:
-- **`frontend-design`**: always first (see above). These project rules win over any skill's defaults if they conflict.
-- **`taste-skill`** (name `design-taste-frontend`): art direction for a new page: picks a researched direction (idea, type, palette, photo treatment, section blueprints) and runs a screenshot look-and-fix loop.
-- **`impeccable`**: refining what exists: `audit`, `critique`, `polish`, `typeset`, `layout`, `animate`, `harden`. Use after a first version is built.
-- **`scroll-craft`**: only for scroll-driven, animated storytelling pages.
-- **`img2threejs`**: only when a page needs a 3D object rebuilt in Three.js from a reference image.
-- **`playwright-cli`**: browser automation and checks beyond `screenshot.mjs` (clicking through flows, forms, multi-page checks). If the `playwright-cli` command is missing, install it with `npm install -g @playwright/cli@latest`.
-- **`design-references/<brand>/DESIGN.md`**: design-system write-ups of well-known brands (Stripe, Apple, Linear, Airbnb …). Use one for inspiration when the user names a brand or style. Borrow the feel, never another brand's logo, name or exact identity; HKS's own `brand_assets/` always win.
-
 ## Reference Images
 - If a reference image is provided: match layout, spacing, typography, and color exactly. Swap in placeholder content (images via `https://placehold.co/`, generic copy). Do not improve or add to the design.
 - If no reference image: design from scratch with high craft (see guardrails below).
