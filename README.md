@@ -1,16 +1,25 @@
 # HKS website
 
-New website, set up for building with Claude Code on the web.
+Phase 1 website for Hindustan Kalari Sangham, Kozhikode: nine static pages, no framework, no dependencies.
 
-## What's in here
-- `CLAUDE.md`: the rules Claude follows when designing and building the site (frontend website rules, adapted for Claude Code on the web)
-- `.claude/skills/frontend-design`: design-quality skill, loaded before any frontend work
-- `.claude/skills/scroll-craft`: skill for scroll-driven, animated marketing sites
-- `.claude/skills/` also holds the superpowers process skills (brainstorming, writing-plans, systematic-debugging, …) and `skill-creator`, because `/plugin` isn't available in Claude Code on the web. Licences in `.claude/licenses/`.
-- `content/hks-content-pack.md`: site content and sitemap for Hindustan Kalari Sangham. Phase 1 (general site: structure, layout, design) uses sections 0–B only; the appendix holds detail for Phase 2.
-- `serve.mjs`: zero-dependency local server, `node serve.mjs` → http://localhost:3000
-- `screenshot.mjs`: screenshots via the container's Chromium, `node screenshot.mjs http://localhost:3000`
+## Run it
+```
+node build.mjs     # assemble src/ into the nine *.html pages in the root
+node serve.mjs     # http://localhost:3000
+```
+The root `*.html` files are generated, so edit `src/`, then rebuild.
 
-## Getting started
-1. Add the logo, colours and style notes to `brand_assets/`, and photos to `images/`.
-2. Open a Claude Code session on this repo and ask it to build Phase 1 from `content/hks-content-pack.md`.
+## Where things live
+- `src/pages/*.html`: page content, one file per page (front matter at the top holds the title and description)
+- `src/partials/header.html`, `footer.html`, `src/layout.html`: shared frame for every page
+- `build.mjs`: inserts the partials, marks the current nav link, expands `{{img}}`, `{{gallery}}`, `{{icon:…}}` and the contact tokens. The WhatsApp link and phone number are defined once at its top.
+- `assets/css/site.css`, `assets/js/site.js`: styles and the small amount of JavaScript (header, mobile menu, video pause, gallery lightbox)
+- `assets/img/`: web images made by `python tools/optimize-images.py` from the cleared folders in `images/`
+- `assets/video/`: hero loops cut from HKS's own Instagram reels (`images/video/`)
+- `brand_assets/`: emblem files, colour tokens, brand guide (`README.md`) and `brand-sheet.html`
+- `images/`: source photos, sorted by clearance. Read `images/README.md` before adding any photo to the site.
+- `content/hks-content-pack.md`: all site copy comes from section B of this pack
+
+## Other tools
+- `screenshot.mjs`: `node screenshot.mjs http://localhost:3000 [label] [--width 390 --height 844] [--scroll N] [--full] [--click ".menu-toggle"]`. On Windows with Node 20, set `CHROME_PATH` to Chrome and run with `node --experimental-websocket`.
+- `CLAUDE.md` and `.claude/skills/`: the rules and skills Claude follows when working on the site

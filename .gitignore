@@ -1,3 +1,10 @@
 .agents/
 skills-lock.json
 temporary screenshots/
+
+# large source reels (the site uses the cut loops in assets/video)
+images/video/*.mp4
+# never publish photos of children without parental consent
+images/_children-consent/
+# flyers kept only as colour reference; they carry other people's portraits
+images/_not-for-web/

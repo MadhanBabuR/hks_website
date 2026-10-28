@@ -8,6 +8,7 @@
 //   node screenshot.mjs http://localhost:3000 phone --width 390 --height 844
 //   node screenshot.mjs http://localhost:3000 whole --full  -> full-page capture
 //   node screenshot.mjs http://localhost:3000 lower --scroll 2400
+//   node screenshot.mjs http://localhost:3000 menu --width 390 --height 844 --click ".menu-toggle"
 //
 // Saves to "./temporary screenshots/screenshot-N[-label].png", auto-incremented.
 import { spawn } from "node:child_process";
@@ -146,6 +147,11 @@ await send(ws, "Runtime.evaluate", {
 
 if (scrollY) {
   await send(ws, "Runtime.evaluate", { expression: `window.scrollTo(0, ${scrollY})` }, sessionId);
+}
+// --click ".menu-toggle" clicks an element first, e.g. to capture an open menu
+const clickIdx = argv.indexOf("--click");
+if (clickIdx !== -1) {
+  await send(ws, "Runtime.evaluate", { expression: `document.querySelector(${JSON.stringify(argv[clickIdx + 1])})?.click()` }, sessionId);
 }
 await new Promise((r) => setTimeout(r, extraWait));
 
