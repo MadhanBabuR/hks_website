@@ -9,7 +9,7 @@ Every photo was checked by eye. Captions below describe only what each image sho
 | Folder | Use on the site? |
 |---|---|
 | `hero/`, `performances/`, `masters/`, `training/`, `healing/`, `events/`, `about/` | **Yes.** Posted by HKS itself, no children seen, no text overlays. |
-| `_needs-permission/` | **Not yet.** The best photos we have, but they are a photographer-credited series or belong to another account. Get written permission and the credit line before using any of them. |
+| `_needs-permission/` | **Yes, for the series listed below** (permission confirmed 28 Oct 2026). Photos owned by other accounts (`about-team`, `gallery-sakthi-motion`) are still not cleared. |
 | `_children-consent/` | **No**, unless parental consent is confirmed (pack rule 6). |
 | `_not-for-web/` | **No.** Text flyers (Shakthi series, Otta exhibition, Navratri Golu). Kept only as colour and style reference. The Shakthi flyers also carry other people's portraits. |
 
@@ -43,9 +43,9 @@ Skipped completely (not downloaded): pack items #8, #33, #39 (text or watermark)
 - `about-team.jpg`: team group photo, owned by another account.
 - `gallery-sakthi-motion.jpg`: women practitioners in the Kalari, owned by another account.
 
-## On the live site, pending permission
+## Photographer-credited photos on the live site
 
-Madhan is getting the photographers' permission, so the site already uses these. If a series is refused, swap these files out (search `src/pages/` for the name) and rebuild.
+Madhan confirmed on 28 Oct 2026 that the photographers gave permission, so these are published. The folder keeps its `_needs-permission` name for history; credit lines can be added if the photographers ask for them.
 
 | Series | Files used | Pages |
 |---|---|---|
