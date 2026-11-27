@@ -99,11 +99,6 @@
   "h": 536,
   "lg": false
  },
- "master-radhika-portrait": {
-  "w": 480,
-  "h": 600,
-  "lg": false
- },
  "master-sami-gurukkal": {
   "w": 800,
   "h": 1000,
@@ -232,6 +227,21 @@
  "train-kettukari": {
   "w": 640,
   "h": 1136,
+  "lg": false
+ },
+ "master-lakshmanan-portrait": {
+  "w": 800,
+  "h": 1000,
+  "lg": false
+ },
+ "master-shatrughnan-portrait": {
+  "w": 545,
+  "h": 682,
+  "lg": false
+ },
+ "master-radhika-kalarigram": {
+  "w": 275,
+  "h": 344,
   "lg": false
  }
 }

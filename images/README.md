@@ -43,6 +43,10 @@ Skipped completely (not downloaded): pack items #8, #33, #39 (text or watermark)
 - `about-team.jpg`: team group photo, owned by another account.
 - `gallery-sakthi-motion.jpg`: women practitioners in the Kalari, owned by another account.
 
+## Masters portraits (from Kalarigram)
+
+Added 27 Nov 2026 at Madhan's request: portraits of Lakshmanan, Shatrughnan and Radhika Gurukkal, taken from the faculty page of Kalarigram (kalarigram.org/our-faculty), the sister institution Lakshmanan Gurukkal founded. Originals are in `masters/kalarigram/`; the 4:5 crops used on the site are `masters/master-lakshmanan-portrait.jpg`, `master-shatrughnan-portrait.jpg` and `master-radhika-kalarigram.jpg`. Radhika's original is small (413×344), so ask for a larger file if the portrait is ever shown bigger. Amrutha Revathi is not on that page and still shows initials.
+
 ## Photographer-credited photos on the live site
 
 Madhan confirmed on 28 Oct 2026 that the photographers gave permission, so these are published. The folder keeps its `_needs-permission` name for history; credit lines can be added if the photographers ask for them.
