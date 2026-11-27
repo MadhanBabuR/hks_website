@@ -251,9 +251,10 @@ button { font: inherit; color: inherit; cursor: pointer; }
     radial-gradient(85% 75% at 0% 100%, rgba(var(--color-shade), 0.82) 0%, rgba(var(--color-shade), 0.5) 45%, transparent 75%),
     linear-gradient(180deg, rgba(var(--color-shade), 0.3) 0%, rgba(var(--color-shade), 0.05) 30%, rgba(var(--color-shade), 0.15) 60%, rgba(var(--color-shade), 0.7) 100%);
 }
-.hero-video h1 { font-size: clamp(36px, 5.2vw, 64px); line-height: 1.12; max-width: 13em; }
+.hero-video h1 { font-size: clamp(34px, 4.4vw, 58px); line-height: 1.12; max-width: none; }
 .hero-video .hero-sub { max-width: 34em; }
 .hero-video .hero-content > * { max-width: 760px; }
+.hero-video .hero-content > h1 { max-width: none; }
 .hero-video .hero-toggle { bottom: calc(var(--space-5) + var(--space-2)); right: max(var(--space-3), calc((100vw - var(--max-width)) / 2 + var(--space-3))); }
 @media (max-width: 600px) {
   .hero-video { min-height: calc(100svh - var(--nav-h)); padding-bottom: 88px; }
