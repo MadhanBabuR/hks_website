@@ -21,6 +21,9 @@ import { fileURLToPath } from "node:url";
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const SRC = join(ROOT, "src");
 
+// the live address; canonical and social-preview links are built from it
+const SITE = "https://hindustankalarisangham.com";
+
 const CONTACT = {
   wa: "https://wa.me/919400023904",
   tel: "tel:+919400023904",
@@ -92,6 +95,8 @@ for (const file of pages) {
   const title = file === "index.html" ? meta.title : `${meta.title} | Hindustan Kalari Sangham`;
   const html = layout
     .replaceAll("{{title}}", title)
+    .replaceAll("{{canonical}}", file === "index.html" ? `${SITE}/` : `${SITE}/${file}`)
+    .replaceAll("{{site}}", SITE)
     .replaceAll("{{description}}", meta.description)
     .replace("{{header}}", header)
     .replace("{{content}}", body)
