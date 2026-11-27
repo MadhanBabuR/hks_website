@@ -45,7 +45,7 @@ Skipped completely (not downloaded): pack items #8, #33, #39 (text or watermark)
 
 ## Masters portraits (from Kalarigram)
 
-Added 27 Nov 2026 at Madhan's request: portraits of Lakshmanan, Shatrughnan and Radhika Gurukkal, taken from the faculty page of Kalarigram (kalarigram.org/our-faculty), the sister institution Lakshmanan Gurukkal founded. Originals are in `masters/kalarigram/`; the 4:5 crops used on the site are `masters/master-lakshmanan-portrait.jpg`, `master-shatrughnan-portrait.jpg` and `master-radhika-kalarigram.jpg`. Radhika's original is small (413×344), so ask for a larger file if the portrait is ever shown bigger. Amrutha Revathi is not on that page and still shows initials.
+Added 27 Nov 2026 at Madhan's request: portraits of Lakshmanan, Shatrughnan and Radhika Gurukkal, taken from the faculty page of Kalarigram (kalarigram.org/our-faculty), the sister institution Lakshmanan Gurukkal founded. Originals are in `masters/kalarigram/`; the 4:5 crops used on the site are `masters/master-lakshmanan-portrait.jpg`, `master-shatrughnan-portrait.jpg` and `master-radhika-kalarigram.jpg`. Radhika's original is small (413×344), so ask for a larger file if the portrait is ever shown bigger. Amrutha Revathi is not on that page; Madhan supplied her photo on 27 Nov 2026 (`masters/amrutha-revathi-original.jpg`, cropped to `masters/master-amrutha-portrait.jpg`).
 
 ## Photographer-credited photos on the live site
 

@@ -243,5 +243,10 @@
   "w": 275,
   "h": 344,
   "lg": false
+ },
+ "master-amrutha-portrait": {
+  "w": 480,
+  "h": 600,
+  "lg": false
  }
 }
